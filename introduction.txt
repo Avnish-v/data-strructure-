@@ -17,7 +17,8 @@
 
                             built in  
 1. array 
-  time complexity
+
+  -------time complexity------------
     insert / remove from end  =  o (1) const 
     insert / removing  from beginning = o(n)
     Access  = o (1) const 
@@ -27,5 +28,52 @@
     foreach  /   map  /filter /redcuce = o(n)
 
 2 .  object  
+
   an object is unordered collection of key value pair ..
   [] . notation obj is not iterable ..
+
+---------time complexity----------
+
+> insert /  remove  = o(1);
+> access -  o(1);
+> search - o(n);
+> obj.keys () , obj.values() , obj.entries()  =  o (n);
+
+3 .  set  
+
+ .  a set ia a data structure  that can holds a collection pf values .  the values however must be unique 
+ .  set can contain a mix of different data types. you can store strings, booleans , numbers oreven obj all in the same ..
+ . set are the dynamically sized . you don't have to worry about the size of the set .
+ . set does not maintain an insertion order .. 
+ .set are iterable . they can be  used by for loop 
+
+   -----. array |v/s| set --------
+    .  array can contain  duplicate values whereas sets cannot
+    . insertion order is maintain by array but it is not the case with sets
+    . searching and deleting is faster in sets than compare to the arrays
+
+    ----------- time complexity ---------
+
+
+4.  map 
+
+. A map is ordered collection of key value pairs. both the key and values can of any data types
+. to retrive a value .you can use the coressponding keys
+. maps are iterables  they can be iterate to  for - - -  similar to obj 
+
+--------- obj |V/S|  map ----------------------
+
+. objects are unordered whereas maps are ordered.
+. keys in obj can only be string and sysmbol type whereas in map they can be of any type
+. an object has prototype and may contain a few default keys which may collide with your own
+  keys if you're not careful .  A map on the other hand does not contain any keys by default .
+. objects are not iterable whereas maps are iterable
+. the number of  items in an object must be determined manually whereas  it is readily available with 
+  the size property in map
+.  apart  from stroing data , you can attach functionality to an object whereas maps restricted to just storing data.
+
+---- time complexity ----------------------
+
+
+
+
