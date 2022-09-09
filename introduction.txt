@@ -1,21 +1,23 @@
----BUilt in ---
+---BUilt in --- |
+                |
+> array         |
+> objects       |
+> sets          |
+> maps          |
+----------------|
 
-> array
-> objects 
-> sets
-> maps
-
- --custom data structures---
-
-> stack 
-> queues
-> circular queues
-> linked list 
-> hash tables
-> trees
-> graph
-
-                            built in  
+|---------------------------------------|                                       
+--custom data structures---             |
+                                        |
+> stack                                 |
+> queues                                |
+> circular queues                       |
+> linked list                           |
+> hash tables                           |
+> trees                                 |
+> graph                                 |
+----------------------------------------|
+-----------------------------------------------  built in  --------------------------------------------------------------
 1. array 
 
   -------time complexity------------
@@ -26,7 +28,7 @@
     push / pop  =  o(1) const 
     shift /  unshift / concat  / slice / splice  =  o(n)
     foreach  /   map  /filter /redcuce = o(n)
-
+-------------------------------------------------------------------------------------------------------------------------
 2 .  object  
 
   an object is unordered collection of key value pair ..
@@ -38,7 +40,7 @@
 > access -  o(1);
 > search - o(n);
 > obj.keys () , obj.values() , obj.entries()  =  o (n);
-
+-----------------------------------------------------------------------------------------------------------------------
 3 .  set  
 
  .  a set ia a data structure  that can holds a collection pf values .  the values however must be unique 
@@ -54,7 +56,7 @@
 
     ----------- time complexity ---------
 
-
+-----------------------------------------------------------------------------------------------------------------------
 4.  map 
 
 . A map is ordered collection of key value pairs. both the key and values can of any data types
@@ -74,6 +76,27 @@
 
 ---- time complexity ----------------------
 
+-------------------------------------------------------------------------------------------------------------------------
+
+                                        custom data structures
+
+1. stack
+
+ .  the stack is a sequential data structure that run on the lifo model.
+ .  the stack as two main methods push ,  pop 
+ . peak() get the value of the top element without removing it
+ .  isEmpty() it is use to check wheather the stack  isEmpty or not ..
+ . size() get the number of element in the stack  . 
+ . print() visualize the element in the stack.
+
+ ----------usages ---
+ . browser tracking {history , forward/backward buttons}
+ . javascript engine call stack 
+ . undo operation when typing ..
+
+ |        |
+ | stack  |
+ |________|
 
 
-
+ 
