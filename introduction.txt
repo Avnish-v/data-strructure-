@@ -1,0 +1,31 @@
+---BUilt in ---
+
+> array
+> objects 
+> sets
+> maps
+
+ --custom data structures---
+
+> stack 
+> queues
+> circular queues
+> linked list 
+> hash tables
+> trees
+> graph
+
+                            built in  
+1. array 
+  time complexity
+    insert / remove from end  =  o (1) const 
+    insert / removing  from beginning = o(n)
+    Access  = o (1) const 
+    search  = o(n)
+    push / pop  =  o(1) const 
+    shift /  unshift / concat  / slice / splice  =  o(n)
+    foreach  /   map  /filter /redcuce = o(n)
+
+2 .  object  
+  an object is unordered collection of key value pair ..
+  [] . notation obj is not iterable ..
