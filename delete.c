@@ -95,6 +95,9 @@ print(head);
 printf("delete at last , \n"); 
 deletelast(head);
 print(head);
+head  =   reverseLink(head) ; 
+printf("this is reverse \n");
+print(head);
     return 0 ;
 }
 void insertAfterNode  (struct Node * prev , int value ){
@@ -113,8 +116,23 @@ for (int i = 1 ; i < index -1 ; i ++  ){
 }
 q =  p->next ; 
 p->next  =  q->next ;
-
 free(q);
+}
+
+
+struct Node * reverseLink (struct Node * head){
+    struct Node * current =  head ;
+    struct Node * prev = NULL ; 
+    struct Node * next   ;
+
+    while(current != NULL){
+        next   =  current->next ; 
+        current->next  =  prev ; 
+        prev  =   current ; 
+        current  =  next;   
+    } 
+    return prev ; 
+
 }
 
 
@@ -129,9 +147,3 @@ free(q);
 //     free(q);
 // }
 
-void reverseLinkedList (struct Node * Head){
-    struct Node * p  =  head ; 
-    while(p  != NULL){
-        
-    }
-}
